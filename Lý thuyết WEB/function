@@ -1,0 +1,9 @@
+function increaseAmount(id)
+(
+	var a = document.getElementById(id).value;
+	document.getElementById(id).value=a+i;
+)
+function descreaseAmount(id)
+{
+	var a= 
+}

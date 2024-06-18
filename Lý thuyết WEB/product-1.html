@@ -1,0 +1,142 @@
+<html>
+	<head> 
+		<title>Thực phẩm sạch HomeFoody</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="Main.css" />
+		<script src="function.js"></script>
+	</head>
+	<body>
+		<div id="wrapper"> 
+			<div id="header">
+				<div id="header-top" style="width: 100%; height: 50px; background-color: Green; line-height: 50px">
+					<div id="header-top-noname" style="width: 80%; height: 50px; background-color: Green; margin: 0px auto; font-size: 13px">
+						<div id="header-top-left" style="width: 60%; height: 50px; background-color: Green; float: left">
+							<span style="padding-right: 50px">Hotline: 0912.188.636</span> Địa chỉ: Số 1 Đỗ thế Diên, NHân Hòa, Mỹ Hào, Hưng Yên
+						</div>
+						<div id="header-top-right" style="width: 40%; height: 50px; background-color: Green; text-align: right; float: right">
+							Đăng nhập hoặc Đăng ký
+						</div>
+					</div>
+				</div>
+				<div id="header-content" style="width: 80%; height: 180px; background-color: #FFF; margin: 0px auto; padding: 50px 0px">
+					<div id="header-logo" style="width: 25%; height: 80px; background-color: #FFF;Float: left">
+						<img src="logo.jpg"></img>
+					</div>
+					<div id="header-contact" style="width: 75%; height: 80px; background-color: white; float: right; display: flex; color: #333; text-align: right">
+						<div id="pilocy" style="width: 25%; height: 100%">
+							<img src="pilocy.jpg"	/><b>Miễn phí vận chuyển</b><br />Bán kính 100 km
+						</div>
+						<div id="support" style="width: 25%; height: 100%">
+							<img src="support.jpg"	/><b>Hỗ trợ 24/7</b><br />Hotline: 0912188636
+						</div>
+						<div id="time" style="width: 25%; height: 100%">
+							<img src="time.jpg"	/><b>Giờ làm việc</b><br />T2- T7 hàng tuần
+						</div>
+						<div id="time" style="width: 25%; height: 100%">
+							<img src="bag.png"	/><b>Giỏ hàng</b>
+						</div>
+					</div>
+				</div>
+				<div id="header-menu" style="width: 100%; height: 50px; background-color: Green">
+					<div id="header-menu-countect" style="width: 80%; height: 100%; margin: 0px auto">
+						<ul style="margin: 0px; list-style: none">
+							<li style="Float: left; padding-right: 40px; line-height: 50px"> <a style="color: #FFF; text-decoration: none" href="index.html">Trang chủ</a></li>
+							<li style="Float: left; padding-right: 40px; line-height: 50px"> <a style="color: #FFF; text-decoration: none" href="product.html">Sản phẩm</a>
+								<ul>
+									<li><a href="">Rau củ sạch</a></li>
+									<li><a href="">Hoa quả sạch</a></li>
+									<li><a href="">Hoa quả nhập khẩu</a></li>
+									<li><a href="">Hoa quả tươi</a></li>
+									<li><a href="">Hải sản tươi</a></li>
+								</ul>
+							</li>
+							<li style="Float: left; padding-right: 40px; line-height: 50px"> <a style="color: #FFF; text-decoration: none" href="news.html">Tin tức</a></li>
+							<li style="Float: left; padding-right: 40px; line-height: 50px"> <a style="color: #FFF; text-decoration: none" href="about.html">Giới thiệu</a></li>
+							<li style="Float: left; padding-right: 40px; line-height: 50px"> <a style="color: #FFF; text-decoration: none" href="contact.html">Liên hệ</a></li>
+							<li style="Float: left; padding-right: 40px; line-height: 50px"> <a style="color: #FFF; text-decoration: none" href="hr.html">Tuyển dụng</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="main" style="width: 100%; background-color: White">
+				<div id="main-content">
+					<div id="product-detail">
+						<div id="product-img">
+							<img class="img-large" src="hong.jpg" alt="">
+							<div class="img-others">
+								<img src="duachuot.jpg" alt="" class="img-small">
+								<img src="./chanhleo.jpg" alt="" class="img-small">
+								<img src="./Toi.jpg" alt="" class="img-small">
+								<img class="img-small" src="hong.jpg" alt="">
+							</div>
+						</div>
+						<div id="product-info">
+							<h1 class="product-name">Hồng đỏ mỹ</h1>	
+							<span>Giá:</span>
+							<span class="product-pricce">150.000</span>
+							<br>
+							<input type="button" value ="-" onclick="decreaseAmount('txtAmounnt')" />
+							<input id="txtAmounnt" type="text" value="1" style="width: 50px; text-align: center;">
+							<input type="button" onclick="increaseAmount('txtAmounnt')" value="+" />			
+						</div>
+						
+						<div id="product-des">
+							<h2>Mô tả sản phẩm</h2>
+							<p>
+								Giá trị dinh dưỡng:   Nho tươi cung cấp các chất dinh dưỡng, làm giảm mệt nhọc ngay lập tức. Các nghiên cứu cho thấy Nho tươi có chứa vitamin A, C, Calcium và sắt giúp duy trì sức khỏe, tốt cho tim mạch, ngăn ngừa tiến trình bệnh tiểu đường.   Cũng như Táo, Nho của Mỹ, Úc… đều được bảo quản trong môi trường lạnh đặc biệt từ khi hái, không chất bảo quản và các chất gây hại cho sức khỏe.
+							</p>
+						</div>
+						<div id="coment">
+							<h2 style="margin-left: 20px;">Ý kiến của bạn</h2>
+							<textarea  rows="5" col="100" style="margin-left: 20px;"></textarea>
+							
+							<div class="user-coment"></div>
+							<div class="user-coment"></div>
+							<div class="user-coment"></div>
+							<div class="user-coment"></div>
+						</div>
+					</div>
+					<div id="product-hot">
+						
+					</div>
+				</div>
+			</div>
+			<div id="quick-contact">
+				<img src="./icon.jpg" alt="">
+			</div>
+			<div id="footer" style="width: 100%; height: 400px; background-color: Green">
+				<div id="footer-top" style="width: 100%; height: 400px">
+					<div class="footer-LH" style= "width: 30%; height: 400px; background-color: red; float: left"></div>
+					<div class="footer-DM" style= "width: 20%; height: 400px; float: left">
+						<div id="footer-DM-top" style="width: 100%; height: 50px; line-height: 80px; padding-left: 27px;text-align: left; color: #FFF; font-size: 25px;padding-bottom: 30px">Danh Mục</div>
+						<div id="footer-DM-end" style="width: 100%; height: 100px; line-height: 40px; text-align: left; color: #FFF">
+							<ul style="margin: 0px">
+							<li style="Float: left; padding-right: 80px; line-height: 30px"> <a style="color: #FFF; text-decoration: none" href="#">Trang chủ</a></li>
+							<li style="Float: left; padding-right: 80px; line-height: 30px"> <a style="color: #FFF; text-decoration: none" href="#">Sản phẩm</a></li>
+							<li style="Float: left; padding-right: 80px; line-height: 30px"> <a style="color: #FFF; text-decoration: none" href="#">Tin tức</a></li>
+							<li style="Float: left; padding-right: 80px; line-height: 30px"> <a style="color: #FFF; text-decoration: none" href="#">Giới thiệu</a></li>
+							<li style="Float: left; padding-right: 80px; line-height: 30px"> <a style="color: #FFF; text-decoration: none" href="#">Liên hệ</a></li>
+							<li style="Float: left; padding-right: 80px; line-height: 30px"> <a style="color: #FFF; text-decoration: none" href="#">Demo tùy ý</a></li>
+						</ul>
+						</div>
+					</div>
+					<div class="footer-HT" style= "width: 20%; height: 400px; background-color: Orange; float: left"></div>
+					<div class="footer-KN" style= "width: 30%; height: 400px; background-color: blue; float: left"></div>
+				</div>
+				<div id="footer-end" style="width: 100%; height: 50px; background-color: #33FF33">
+					<div class="footer-end-right" style="width:60%; height: 50px; Float: left">
+						<span style="color: #FFF; font-weight: bold; line-height: 50px; padding-left: 250px">© Bản quyền thuộc về Dualeo | Powered by Haravan</span>
+					</div>
+					<div class="footer-end-left" style="width:40%; height: 50px; Float: right">
+						<ul style="margin: 0px; list-style: none">
+							<li style="Float: left; padding-left: 30px; line-height: 50px"> <a style="color: #FFF; text-decoration: none" href="#">Tìm kiếm</a></li>
+							<li style="Float: left; padding-left: 30px; line-height: 50px"> <a style="color: #FFF; text-decoration: none" href="#">Chính sách</a></li>
+							<li style="Float: left; padding-left: 30px; line-height: 50px"> <a style="color: #FFF; text-decoration: none" href="#">Điều khoản</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
